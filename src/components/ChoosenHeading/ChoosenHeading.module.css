@@ -1,0 +1,30 @@
+.choosenHeading {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  font-size: 2.8rem;
+  /* justify-content: center; */
+}
+
+.iconImage {
+  border-radius: 1rem;
+  padding: 0.8rem;
+}
+
+.choosenTitle {
+  color: var(--color-dark-grey);
+}
+
+.choosenTitle[data-mode="true"] {
+  color: var(--color-white);
+}
+
+@media screen and (max-width: 31.5em) {
+  .choosenHeading {
+    font-size: 1.8rem;
+  }
+
+  .iconImage {
+    padding: 0.57rem;
+  }
+}

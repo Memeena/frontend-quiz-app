@@ -1,0 +1,91 @@
+.quizCompleted {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr min-content;
+  gap: 3.2rem;
+}
+
+.heading {
+  grid-column: 1/2;
+  grid-row: 1/-1;
+}
+.head[data-mode="true"],
+.mainHead[data-mode="true"] {
+  color: var(--color-white);
+}
+
+.playbtn {
+  grid-column: 2/3;
+  grid-row: 2/3;
+}
+
+.count {
+  grid-column: 2/3;
+  grid-row: 1/2;
+  padding: 4.8rem;
+  background-color: var(--color-white);
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.count[data-mode="true"] {
+  background-color: var(--color-medium-grey);
+}
+.mainHead,
+.head {
+  color: var(--color-dark-grey);
+  font-size: 6.4rem;
+}
+
+.mainHead {
+  font-weight: lighter;
+}
+
+.head {
+  font-weight: bold;
+}
+
+.correctAnswers {
+  font-size: 14.4rem;
+  color: var(--color-dark-grey);
+}
+
+.correctAnswers[data-mode="true"] {
+  color: var(--color-white);
+}
+
+.totalQn {
+  color: var(--color-light-grey);
+  font-size: 2.4rem;
+}
+
+.totalQn[data-mode="true"] {
+  color: var(--color-very-light-grey);
+}
+
+@media screen and (max-width: 31.5em) {
+  .mainHead,
+  .head {
+    font-size: 4rem;
+  }
+
+  .correctAnswers {
+    font-size: 8.8rem;
+  }
+
+  .totalQn {
+    font-size: 1.8rem;
+  }
+}
+
+@media screen and (max-width: 48em) {
+  .quizCompleted {
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+  }
+}
