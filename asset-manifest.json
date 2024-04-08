@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/frontend-quiz-app/static/css/main.33d89e11.css",
+    "main.js": "/frontend-quiz-app/static/js/main.29c5eb40.js",
+    "static/media/icon-sun-light.svg": "/frontend-quiz-app/static/media/icon-sun-light.7e55cab9adb645bf6239b05139afe91d.svg",
+    "index.html": "/frontend-quiz-app/index.html",
+    "static/media/icon-moon-light.svg": "/frontend-quiz-app/static/media/icon-moon-light.1312fa4ca7398c6d0168a486e5dd66c9.svg",
+    "main.33d89e11.css.map": "/frontend-quiz-app/static/css/main.33d89e11.css.map",
+    "main.29c5eb40.js.map": "/frontend-quiz-app/static/js/main.29c5eb40.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.33d89e11.css",
+    "static/js/main.29c5eb40.js"
+  ]
+}
