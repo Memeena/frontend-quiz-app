@@ -93,7 +93,7 @@ export default function Questions({
                 option === answer ? (
                   <img
                     className={styles.chkicon}
-                    src="../../assets/images/icon-correct.svg"
+                    src="../assets/images/icon-correct.svg"
                     alt="icon"
                   />
                 ) : (
@@ -102,13 +102,13 @@ export default function Questions({
               ) : option === questions.answer ? (
                 <img
                   className={styles.chkicon}
-                  src="../../assets/images/icon-correct.svg"
+                  src="../assets/images/icon-correct.svg"
                   alt="icon"
                 />
               ) : option === answer ? (
                 <img
                   className={styles.chkicon}
-                  src="../../assets/images/icon-incorrect.svg"
+                  src="../assets/images/icon-incorrect.svg"
                   alt="icon"
                 />
               ) : (
